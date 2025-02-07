@@ -1,0 +1,8 @@
+sudo su -
+yum update –y
+yum install git –y  
+git –-version
+git config –-global user.name “Ram/Shyam” 
+git config –-global user.email "ram/shyam@gmail.com"
+git config --list
+git remote add origin https://github.com/RST-10/centralrepo.git
